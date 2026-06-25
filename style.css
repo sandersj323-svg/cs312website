@@ -1,0 +1,56 @@
+/* Joshua Sanders | 06/24/2026 | Module 6 */
+
+body {
+    background-color: #f4f1e8;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #2b1d0e;
+}
+
+h2 {
+    color: #5c3b12;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    color: #1a5fb4;
+}
+
+a:hover {
+    color: #8b0000;
+}
+
+header {
+    background-color: #d6c49a;
+    padding: 15px;
+    border-bottom: 3px solid #5c3b12;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+img {
+    max-width: 500px;
+    height: auto;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d6c49a;
+    text-align: center;
+}
