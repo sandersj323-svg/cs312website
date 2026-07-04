@@ -1,4 +1,4 @@
-/* Joshua Sanders | 07/02/2026 | Module 7 */
+/* Joshua Sanders | 07/04/2026 | Module 8 Webspace Assignment */
 
 body {
     background-color: #f4f1e8;
@@ -9,9 +9,11 @@ body {
 }
 
 header {
-    background-color: #d6c49a;
+    background: linear-gradient(to right, #d6c49a, #f4f1e8);
     padding: 20px;
     border-bottom: 3px solid #5c3b12;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 3px 8px #999999;
 }
 
 nav {
@@ -19,6 +21,7 @@ nav {
     padding: 10px;
     border: 1px solid #5c3b12;
     background-color: #ffffff;
+    border-radius: 8px;
 }
 
 main {
@@ -27,6 +30,8 @@ main {
     margin: 20px auto;
     padding: 20px;
     border: 2px solid #d6c49a;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #cccccc;
 }
 
 footer {
@@ -36,14 +41,18 @@ footer {
     border-top: 2px solid #5c3b12;
     background-color: #d6c49a;
     text-align: center;
+    border-radius: 8px;
 }
 
 h1 {
     color: #2b1d0e;
+    text-shadow: 1px 1px 2px #bbbbbb;
 }
 
 h2 {
     color: #5c3b12;
+    position: relative;
+    left: 5px;
 }
 
 p {
@@ -65,10 +74,18 @@ img {
     border: 2px solid #5c3b12;
     padding: 5px;
     margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px #aaaaaa;
+}
+
+iframe {
+    border-radius: 10px;
+    box-shadow: 0 3px 8px #aaaaaa;
 }
 
 section {
     margin: 20px 0;
     padding: 15px;
     border: 1px solid #d6c49a;
+    border-radius: 8px;
 }
